@@ -1,0 +1,10 @@
+E:\Files\C-sharp-Programme\PingClient\PingClient\bin\Release\PingClient.exe.config
+E:\Files\C-sharp-Programme\PingClient\PingClient\bin\Release\PingClient.exe
+E:\Files\C-sharp-Programme\PingClient\PingClient\bin\Release\PingClient.pdb
+E:\Files\C-sharp-Programme\PingClient\PingClient\obj\Release\PingClient.alarm.resources
+E:\Files\C-sharp-Programme\PingClient\PingClient\obj\Release\PingClient.Form1.resources
+E:\Files\C-sharp-Programme\PingClient\PingClient\obj\Release\PingClient.Properties.Resources.resources
+E:\Files\C-sharp-Programme\PingClient\PingClient\obj\Release\PingClient.csproj.GenerateResource.Cache
+E:\Files\C-sharp-Programme\PingClient\PingClient\obj\Release\PingClient.exe
+E:\Files\C-sharp-Programme\PingClient\PingClient\obj\Release\PingClient.pdb
+E:\Files\C-sharp-Programme\PingClient\PingClient\obj\Release\PingClient.csprojResolveAssemblyReference.cache

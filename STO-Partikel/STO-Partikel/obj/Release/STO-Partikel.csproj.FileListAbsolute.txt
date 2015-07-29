@@ -1,0 +1,15 @@
+E:\Files\C-sharp-Programme\STO-Partikel\STO-Partikel\bin\Release\STO-Partikel.exe.manifest
+E:\Files\C-sharp-Programme\STO-Partikel\STO-Partikel\bin\Release\STO-Partikel.application
+E:\Files\C-sharp-Programme\STO-Partikel\STO-Partikel\bin\Release\STO-Partikel.exe
+E:\Files\C-sharp-Programme\STO-Partikel\STO-Partikel\bin\Release\STO-Partikel.pdb
+E:\Files\C-sharp-Programme\STO-Partikel\STO-Partikel\obj\Release\STO_Partikel.Form1.resources
+E:\Files\C-sharp-Programme\STO-Partikel\STO-Partikel\obj\Release\STO_Partikel.Form2.resources
+E:\Files\C-sharp-Programme\STO-Partikel\STO-Partikel\obj\Release\STO_Partikel.Properties.Resources.resources
+E:\Files\C-sharp-Programme\STO-Partikel\STO-Partikel\obj\Release\STO-Partikel.csproj.GenerateResource.Cache
+E:\Files\C-sharp-Programme\STO-Partikel\STO-Partikel\obj\Release\STO-Partikel.exe.manifest
+E:\Files\C-sharp-Programme\STO-Partikel\STO-Partikel\obj\Release\STO-Partikel.application
+E:\Files\C-sharp-Programme\STO-Partikel\STO-Partikel\obj\Release\STO-Partikel.exe
+E:\Files\C-sharp-Programme\STO-Partikel\STO-Partikel\obj\Release\STO-Partikel.pdb
+E:\Files\C-sharp-Programme\STO-Partikel\STO-Partikel\bin\Release\STO-Partikel.exe.config
+E:\Files\C-sharp-Programme\STO-Partikel\STO-Partikel\obj\Release\STO-Partikel.csprojResolveAssemblyReference.cache
+E:\Files\C-sharp-Programme\STO-Partikel\STO-Partikel\obj\Release\STO_Partikel.Form3.resources
