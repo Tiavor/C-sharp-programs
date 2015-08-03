@@ -1,13 +1,17 @@
 # C-sharp-programs
 STO-Partikel
  - a bot for farming a mini game in StarTrek Online. the setup is not finished.
-   the bot it self works fine for me. I added the setup later that it is freely configurable
+   the bot it self works fine for me. I added the setup later that it is
+   adjustable for other users that might have different resolutions, color
+   scheme and window size in the game. Because it is that variable, it was
+   hard to program and test for all variations.
 
 GW2Helper
  - manage multiple gw2 accounts, stores login information encrypted.
    but the transmission of the password to the client is unsafe.
  - currently working on a better version that useses the built-in
-   login information storage in %appdata%
+   login information storage in %appdata%, but it will have a more
+   complicated setup
    
 PingClient
  - I had disconnects from the internet on a regular basis so I wrote this
