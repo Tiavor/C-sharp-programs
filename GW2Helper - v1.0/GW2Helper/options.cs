@@ -165,7 +165,7 @@ namespace GW2Helper
         private void buttonBrowse_Click(object sender, EventArgs e)
         {
             OpenFileDialog searchDialog = new OpenFileDialog();
-            searchDialog.Filter = "gw2.exe|GW2.exe;gw2.exe";
+            searchDialog.Filter = "Executeables(*.exe,*.bat)|*.exe;*.bat";
             System.Windows.Forms.DialogResult dr = searchDialog.ShowDialog();
             if (dr == DialogResult.OK)
             {

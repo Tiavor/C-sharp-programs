@@ -85,8 +85,6 @@ namespace GW2Helper
         // setup the process and start
         private void startGW(int index)
         {
-            if (!ConfigGet("path").Contains("gw2.exe"))
-                return;
             //start gw if gw is not running and index is ok 
             Process p = Process.GetProcessesByName("gw2").FirstOrDefault();
             if (p == null && index < Convert.ToInt32(ConfigGet("numberofacc")))
@@ -94,12 +92,13 @@ namespace GW2Helper
                 //set laststarted to "today"
                 ConfigSetLastlogin(index);
                 //start gw
+                string path = ConfigGet("path");
                 Process gw2pro = new Process();
-                gw2pro.StartInfo.FileName = ConfigGet("path"); //insert file and path from config
-                gw2pro.StartInfo.Arguments = "-email " + getMail(index) + " -password " + getPW(index) +
-                    " -nopatchui";
+                gw2pro.StartInfo.FileName = path; //insert file and path from config
+                gw2pro.StartInfo.Arguments = "-email " + getMail(index) + " -password " + getPW(index) + " -nopatchui";
                 if (ConfigGet("cmd") != "")
                     gw2pro.StartInfo.Arguments += " " + ConfigGet("cmd");
+                gw2pro.StartInfo.WorkingDirectory = path.Substring(0, path.LastIndexOf("\\"));
                 gw2pro.Start();
             }
         }

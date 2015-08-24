@@ -102,10 +102,11 @@
             // 
             // buttonPlus
             // 
+            this.buttonPlus.AutoSize = true;
             this.buttonPlus.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonPlus.Location = new System.Drawing.Point(7, 12);
             this.buttonPlus.Name = "buttonPlus";
-            this.buttonPlus.Size = new System.Drawing.Size(21, 23);
+            this.buttonPlus.Size = new System.Drawing.Size(26, 26);
             this.buttonPlus.TabIndex = 0;
             this.buttonPlus.Text = "+";
             this.buttonPlus.UseVisualStyleBackColor = true;
@@ -113,10 +114,11 @@
             // 
             // buttonMinus
             // 
+            this.buttonMinus.AutoSize = true;
             this.buttonMinus.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonMinus.Location = new System.Drawing.Point(7, 34);
             this.buttonMinus.Name = "buttonMinus";
-            this.buttonMinus.Size = new System.Drawing.Size(21, 23);
+            this.buttonMinus.Size = new System.Drawing.Size(23, 26);
             this.buttonMinus.TabIndex = 1;
             this.buttonMinus.Text = "-";
             this.buttonMinus.UseVisualStyleBackColor = true;
@@ -701,6 +703,7 @@
             // 
             // buttonBrowse
             // 
+            this.buttonBrowse.AutoSize = true;
             this.buttonBrowse.Location = new System.Drawing.Point(378, 6);
             this.buttonBrowse.Name = "buttonBrowse";
             this.buttonBrowse.Size = new System.Drawing.Size(75, 23);
@@ -738,8 +741,9 @@
             // 
             // options
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
+            this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(465, 426);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.textBoxCMD);
