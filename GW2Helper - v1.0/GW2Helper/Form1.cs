@@ -98,7 +98,9 @@ namespace GW2Helper
                 gw2pro.StartInfo.Arguments = "-email " + getMail(index) + " -password " + getPW(index) + " -nopatchui";
                 if (ConfigGet("cmd") != "")
                     gw2pro.StartInfo.Arguments += " " + ConfigGet("cmd");
-                gw2pro.StartInfo.WorkingDirectory = path.Substring(0, path.LastIndexOf("\\"));
+                gw2pro.StartInfo.WorkingDirectory = path.Substring(0, path.LastIndexOf("\\")+1);
+                MessageBox.Show(gw2pro.StartInfo.FileName + "\n" +
+                                gw2pro.StartInfo.WorkingDirectory);
                 gw2pro.Start();
             }
         }
