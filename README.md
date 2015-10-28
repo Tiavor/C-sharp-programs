@@ -6,13 +6,6 @@ STO-Partikel
    scheme and window size in the game. Because it is that variable, it was
    hard to program and test for all variations.
 
-GW2Helper
- - manage multiple gw2 accounts, stores login information encrypted.
-   but the transmission of the password to the client is unsafe.
- - currently working on a better version that useses the built-in
-   login information storage in %appdata%, but it will have a more
-   complicated setup
-   
 PingClient
  - I had disconnects from the internet on a regular basis so I wrote this
    to check the connection between my pc and another device in my network.
